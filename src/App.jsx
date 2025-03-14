@@ -7,6 +7,8 @@ import Hero from "./Components/Hero/Hero";
 import MyWork from "./Components/MyWork/Mywork";
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
+import './index.css';
+
 
 const App = () => {
   return(
