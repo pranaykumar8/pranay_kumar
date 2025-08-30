@@ -1,7 +1,6 @@
 {
   "name": "portfolio-react",
-  
-  "homepage": "https://pranaykumar8.github.io/pranay_kumar",
+  "homepage": "https://pranaykumar8.github.io/pranay_kumar/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",

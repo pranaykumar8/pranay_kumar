@@ -1,13 +1,16 @@
-import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import profile_img from '../../assets/passport size photo.png';
 import './Hero.css';
 const Hero = () => {
 
 
+  // const handleResumeClick = () => {
+  //   window.open("/PranayKumar_Resume.pdf", "_blank"); // Opens the PDF in a new tab
+  // };
   const handleResumeClick = () => {
-    window.open("/PranayKumar_Resume.pdf", "_blank"); // Opens the PDF in a new tab
-  };
+  window.open(`${process.env.PUBLIC_URL}/PranayKumar_Resume.pdf`, "_blank");
+};
+
 
   return(
 
