@@ -7,9 +7,13 @@ const Hero = () => {
   // const handleResumeClick = () => {
   //   window.open("/PranayKumar_Resume.pdf", "_blank"); // Opens the PDF in a new tab
   // };
-  const handleResumeClick = () => {
-  window.open(`${process.env.PUBLIC_URL}/PranayKumar_Resume.pdf`, "_blank");
+//   const handleResumeClick = () => {
+//   window.open(`${process.env.PUBLIC_URL}/PranayKumar_Resume.pdf`, "_blank");
+// };
+const handleResumeClick = () => {
+  window.open("/pranay_kumar/PranayKumar_Resume.pdf", "_blank");
 };
+
 
 
   return(
