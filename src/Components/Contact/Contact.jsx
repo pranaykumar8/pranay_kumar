@@ -70,7 +70,7 @@
 // )
 // }
 // export default Contact
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import call_icon from '../../assets/call_icon.svg';
 import github_icon from '../../assets/github.jpg';
 import linkedin_icon from '../../assets/linkedin.jpg';
@@ -153,7 +153,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-detail">
                     <img src={github_icon} alt="GitHub" />
-                    <a href="https://github.com/pranaykumardodle" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/pranaykumar8" target="_blank" rel="noopener noreferrer">
                         <p>GitHub</p>
                     </a>
                 </div>
